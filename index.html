@@ -16,11 +16,12 @@
             font-family: Arial, sans-serif;
         }
         h1 {
-            background-color: #333;
-            color: #fff;
+            background: linear-gradient(0deg, rgba(255, 0, 0, 0.2) 0%, rgba(255, 0, 102, 0.2) 100%), rgba(255, 255, 255, 0.20); 
+            backdrop-filter: blur(25.5px); 
+            color: #000000;
             padding: 10px;
             text-align: center;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
         }
         table {
             border-collapse: collapse;
@@ -55,12 +56,12 @@
             cursor: pointer;
             border-radius: 5px; 
             margin: 10px 5px; 
-            background: linear-gradient(90deg, #333, #555);
+            background: linear-gradient(90deg, #ff6b6b, #ff00d9);
         }
         button:hover {
             background-color: #d4d4d4;
-            color: black;
-            background: linear-gradient(90deg, #555, #777);
+            color: rgb(255, 255, 255);
+            background: linear-gradient(90deg, #ff0000, #ff0073);
         }
 
         p {
@@ -72,10 +73,11 @@
         label {
             color: white;
         }
+
     </style>
 </head>
 <body style="background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/1585220/ss_3f2dbc8f0e0b84701448e4324ee50f926f941155.1920x1080.jpg?t=1697127562);">
-    <h1>Задача 1: Информация о пользователе</h1>
+    <h1>Задача 1: Информация о пользователе💀</h1>
     <table>
         <tr>
             <th>Параметр</th>
@@ -102,19 +104,19 @@
     </table>
     <button onclick="сохранитьПользователя()">Сохранить</button>
 
-    <h1>Задача 2: Автомобиль</h1>
+    <h1>Задача 2: Автомобиль💀</h1>
     <p>Текущая скорость: <span id="carSpeed">0</span> км/ч</p>
     <button onclick="ускоритьАвтомобиль(10)">Ускорить</button>
     <button onclick="замедлитьАвтомобиль(10)">Замедлить</button>
 
 
-    <h1>Задача 3: Банковский счет</h1>
+    <h1>Задача 3: Банковский счет💀</h1>
     <p>Баланс: <span id="accountBalance">1000</span> рублей</p>
     <input type="number" id="amountInput" placeholder="Сумма">
     <button onclick="пополнитьСчет()">Пополнить</button>
     <button onclick="снятьСредства()">Снять</button>
 
-    <h1>Задача 4: Генератор электронной почты</h1>
+    <h1>Задача 4: Генератор электронной почты💀</h1>
     <label for="firstname">Имя:</label>
     <input type="text" id="firstname" placeholder="Введите имя"><br>
 
